@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 300px; /* Defina a largura do formulário conforme necessário */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="number"],
+select,
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+p#resultado {
+    text-align: center;
+}
+
+#infoExtra {
+    margin-top: 20px;
+    width: 300px; /* mesma largura do formulário */
+    height: auto; /* altura automática para manter proporções da imagem */
+    background-size: cover; /* redimensionar a imagem para cobrir todo o espaço */
+    background-position: center; /* centralizar a imagem */
+    text-align: center; /* centralizar o conteúdo dentro da div */
+}
+
+#imagemInfoExtra {
+    width: 100%; /* mesma largura do formulário */
+    height: auto; /* altura automática para manter proporções da imagem */
+}
+
+#fraseInfoExtra {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
